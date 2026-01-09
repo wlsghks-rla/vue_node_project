@@ -28,7 +28,7 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
           source: "backapp/*"
-          target: /root/app/backapp/
+          target: ${{ secrets.BACK_PATH }}
           rm: true
           strip_components: 1
 
