@@ -31,3 +31,4 @@ jobs:
           source: "frontapp/dist/*"
           target: ${{ secrets.FRONT_PATH }}
           rm: true
+          strip_components: 2
